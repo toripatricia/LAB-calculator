@@ -1,0 +1,55 @@
+#calculator {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(222, 192, 153);
+  font-size: 0px;
+}
+
+.row-0 {
+  display: flex;
+  justify-content: end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  height: 70px;
+  background-color: black;
+  font: 'Franklin Gothic';
+  color: white;
+  font-size: 40px;
+  font-family: arial;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.c-button {
+  height: 66px;
+  width: 150px;
+  font-size: 45px;
+  background-color: rgb(217, 217, 217);
+ 
+}
+
+.null-button{
+  height: 66px;
+  width: 225px;
+  font-size: 45px;
+}
+
+.orange {
+  background-color: rgb(212, 150, 34);
+}
+
+
+
+button {
+  height: 66px;
+  width: 75px;
+  background-color: rgb(217, 217, 217);
+  font-size: 45px;
+}
